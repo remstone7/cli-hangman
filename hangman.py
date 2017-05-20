@@ -35,9 +35,8 @@ def play_the_game():
 		guesses += user_input
 
 		if user_input not in hidden_word:
-			print('Sorry, {} is not in the word'.format(user_input))
+			print('Sorry,{} is not in the word'.format(user_input))
 			max_guesses -= 1
-
 
 
 def generate_random_word(word):
