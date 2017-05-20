@@ -35,7 +35,7 @@ def play_the_game():
 		guesses += user_input
 
 		if user_input not in hidden_word:
-			print('Sorry, you\'ve already guessed {}, you\'re getting dinged'.format(user_input))
+			print('Sorry, {} is not in the word'.format(user_input))
 			max_guesses -= 1
 
 
